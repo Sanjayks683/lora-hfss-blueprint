@@ -1,0 +1,302 @@
+[
+  {
+    "status": "ok",
+    "operation": "S11_RI_csv"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_csv"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_RI_csv"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_csv"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_axis"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_grid"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_limit"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_limit_style"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_433_marker"
+  },
+  {
+    "status": "ok",
+    "operation": "S11_dB_native_image"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_axis"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_grid"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_limit"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_limit_style"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_433_marker"
+  },
+  {
+    "status": "ok",
+    "operation": "Discrete_S11_dB_native_image"
+  },
+  {
+    "status": "ok",
+    "operation": "Smith50_native_image"
+  },
+  {
+    "status": "ok",
+    "operation": "zin_csv"
+  },
+  {
+    "status": "ok",
+    "operation": "zin_image"
+  },
+  {
+    "status": "ok",
+    "operation": "gain_native_image"
+  },
+  {
+    "status": "ok",
+    "operation": "gain_csv"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_categories"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_S Parameter"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Y Parameter"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Z Parameter"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_VSWR"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Gamma"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Port Zo"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Lambda"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Epsilon"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Active S Parameter"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Active Y Parameter"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Active Z Parameter"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Active VSWR"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Passivity"
+  },
+  {
+    "status": "ok",
+    "operation": "antenna_quantities_Design"
+  },
+  {
+    "status": "ok",
+    "operation": "model_image"
+  },
+  {
+    "status": "ok",
+    "operation": "current_static"
+  },
+  {
+    "status": "ok",
+    "operation": "current_field_data"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_000"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_010"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_020"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_030"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_040"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_050"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_060"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_070"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_080"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_090"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_100"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_110"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_120"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_130"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_140"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_150"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_160"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_170"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_180"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_190"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_200"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_210"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_220"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_230"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_240"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_250"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_260"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_270"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_280"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_290"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_300"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_310"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_320"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_330"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_340"
+  },
+  {
+    "status": "ok",
+    "operation": "phase_350"
+  }
+]

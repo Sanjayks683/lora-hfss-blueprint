@@ -207,7 +207,7 @@ def configure(design, ed, c):
             "IsEnabled:=", True, "RangeType:=", "LinearCount",
             "RangeStart:=", "%dMHz" % freq, "RangeEnd:=", "%dMHz" % freq,
             "RangeCount:=", 1, "Type:=", "Discrete", "SaveFields:=", True,
-            "SaveRadFields:=", True, "ExtrapToDC:=", False])
+            "SaveRadFields:=", False, "ExtrapToDC:=", False])
     design.GetModule("RadField").InsertInfiniteSphereSetup(["NAME:" + SPHERE,
         "UseCustomRadiationSurface:=", False, "CSDefinition:=", "Theta-Phi",
         "Polarization:=", "Linear", "ThetaStart:=", "0deg", "ThetaStop:=", "180deg",

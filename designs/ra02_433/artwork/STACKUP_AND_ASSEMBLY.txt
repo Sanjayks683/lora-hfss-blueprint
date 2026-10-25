@@ -1,0 +1,24 @@
+RA-02 433 MHz antenna coupon, nominal HFSS-verified design
+
+Board outline: 120 x 65 mm, origin lower-left, all units mm.
+FR4 dielectric between copper layers: 1.600 mm.
+Top and bottom copper: 0.035 mm each; modeled total thickness 1.670 mm.
+RF model: epsilon_r = 4.3, loss tangent = 0.018 at 433 MHz.
+Do not substitute an unspecified generic FR4 stackup without RF revalidation.
+No soldermask is included in the model; mask Gerbers open the entire coupon.
+Bottom ground: X=0..120, Y=0..35. No copper above Y=35 on bottom layer.
+Finished plated via hole: 0.300 mm at X=7.300, Y=8.000.
+Via copper barrel OD: 0.350 mm, radial plating 0.025 mm.
+Keep enclosure, other copper and components out of antenna region Y>35.
+
+L1: series RF inductor, 4.3 nH. Modeled ESR 0.25 ohm.
+C1: shunt RF C0G/NP0 capacitor, 20 pF. Modeled ESR 0.08 ohm, ESL 0.3 nH.
+L1 bridges the 0.8 mm signal gap Y=10.0..10.8, around X=10.
+C1 bridges the RF feed edge X=8.43165 to the ground pad ending X=7.7 at Y=8.
+Custom lands: check the selected component drawings and soldering process.
+The ground via is inside the C1 ground land: address solder wicking/via-in-pad.
+
+The coupon has an ideal RF reference plane at (X=10,Y=5), not a physical connector model.
+Add and characterize the actual 50-ohm module/connector launch during integration.
+The match requires both L1 and C1. Bare copper alone does not meet the 50-ohm target.
+Nominal simulated S11 at 433 MHz = -16.13 dB, not a measured production guarantee.

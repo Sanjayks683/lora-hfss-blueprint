@@ -1,0 +1,31 @@
+DesignVariation : ant_end='20mm' ant_span='95mm' C_match='20pF' L_match='4.2999999999999998nH'
+Setup : RA02_433
+
+==================
+Number of Passes
+Completed : 13
+Maximum   : 24
+Minimum   : 3
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.01
+Current   : 0.0033156
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|           6292|             N/A|
+          2|           6932|         0.48378|
+          3|           7640|         0.55095|
+          4|           8408|         0.28651|
+          5|           9262|        0.067733|
+          6|          10185|        0.094642|
+          7|          11201|        0.044777|
+          8|          12319|       0.0052855|
+          9|          13547|          0.0364|
+         10|          14877|        0.022385|
+         11|          16362|        0.039959|
+         12|          17959|       0.0083323|
+         13|          19719|       0.0033156|
+

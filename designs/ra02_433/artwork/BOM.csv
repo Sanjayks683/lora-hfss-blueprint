@@ -1,0 +1,3 @@
+Reference,Value,Role,Model
+L1,4.3 nH,"Series RF inductor, 0603",Series resistance 0.25 ohm; vendor RF model must be checked
+C1,20 pF,"Shunt C0G/NP0 capacitor, 0603",ESR 0.08 ohm + ESL 0.3 nH; ground via modeled in EM

@@ -6,6 +6,8 @@ Reviewed 2026-10-25. Use your installed AEDT Help and recorded scripts as the re
 |---|---|
 | [Original folder at inspected commit](https://github.com/Stavyansh/PCB-Design/tree/1a9fc4166bf9c25f6e9df71fcfc9cf6936299828/lora_module_v1) | Available assets; README module/band and approximate board size |
 | [Ai-Thinker RA-02](https://docs.ai-thinker.com/en/Ra-02/) | 410–525 MHz module specification |
+| [TI 433 to 930 MHz BOM-tunable PCB antenna](https://www.ti.com/lit/an/swra730/swra730.pdf) | Printed monopole and external matching engineering context; the coupon geometry here is independently modeled |
+| [Ansys antenna parameter selection](https://ansyshelp.ansys.com/public/views/secured/electronics/v252/en/subsystems/hfss/Content/ReportsandPostProc/SelectingAntennaParameterstoPlot.htm) | Correct native report type `Antenna Parameters` and efficiency/power quantities |
 | [Semtech SX1278](https://www.semtech.com/products/wireless-rf/lora-connect/sx1278) | Device identification and frequency-range limitation |
 | [Altium EDB exporter](https://www.altium.com/documentation/altium-designer/design-tools-interfacing/ansys-edb-export?version=20) | File > Export > Ansys EDB; exported layers/components; cutout/value caveats |
 | [Altium CAM imports/exports](https://www.altium.com/documentation/altium-designer/preparing-for-manufacture/cam/imports-exports) | Fabrication data and format considerations |

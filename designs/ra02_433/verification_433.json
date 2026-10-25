@@ -1,0 +1,27 @@
+{
+  "frequency_MHz": 433,
+  "reference_ohm": 50,
+  "S11_dB": -16.130506916159003,
+  "impedance_ohm": {
+    "real": 49.20017928493058,
+    "imag": 15.659064759766764
+  },
+  "VSWR": 1.3700214804352953,
+  "reflected_power_fraction": 0.024375262894073352,
+  "mismatch_loss_dB": 0.10717196619476017,
+  "requirement_dB": -10,
+  "passes": true,
+  "source": "Native HFSS discrete sweep export",
+  "csv": "designs\\ra02_433\\hfss_exports\\Discrete_S11_RI.csv",
+  "accepted_samples_MHz": [
+    432.0,
+    432.5,
+    433.0,
+    433.5,
+    434.0,
+    434.5,
+    435.0,
+    435.5,
+    436.0
+  ]
+}

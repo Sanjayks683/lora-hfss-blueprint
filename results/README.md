@@ -1,5 +1,7 @@
 # Full local HFSS run archive
 
+For the current RA-02 **433 MHz** design, use [the dedicated design folder](../designs/ra02_433/README.md) and its solved-project archive. The archive below preserves the earlier 868/915 MHz demonstration runs.
+
 `hfss_local_runs.zip` contains all generated native HFSS test projects, their `.aedtresults` solution folders (including saved fields), working S11 CSV/plot outputs, and execution logs from this session. `manifest.json` lists the archived files with byte sizes and SHA-256 hashes. Extract the ZIP while preserving directory names so each `.aedt` stays next to its corresponding `.aedtresults` folder.
 
 The useful solved runs are:

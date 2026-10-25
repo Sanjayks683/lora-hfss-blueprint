@@ -1,4 +1,26 @@
-# LoRa HFSS engineering blueprint — 868 / 915 MHz
+# LoRa PCB antennas and HFSS engineering
+
+## Current design: RA-02 at 433 MHz
+
+The new [433 MHz FR4 antenna design](designs/ra02_433/README.md) is a **120 × 65 mm printed U-bent monopole with a 4.3 nH series / 20 pF shunt matching network**. Native HFSS Student 2025.2.4 discrete verification gives:
+
+| Quantity at 433 MHz | Simulated result |
+|---|---:|
+| S11, 50 Ω reference | **−16.13 dB** — passes the ≤−10 dB target |
+| Input impedance | 49.20 + j15.66 Ω |
+| VSWR | 1.37 |
+| Reflected power | 2.44% |
+| Radiation efficiency | 50.98% |
+| Total efficiency | 49.74% |
+| Peak realized gain | −1.34 dBi |
+
+Includes **Gerber/drill/DXF/SVG artwork, BOM, native HFSS graphs, Smith chart, gain pattern, current phase animation, complex S11 CSV and the solved project archive**. The matching network is required; the bare trace is not 50 Ω. These are simulated results for the stated stackup and component loss models, not VNA measurements of the complete Raven carrier.
+
+![Native HFSS discrete S11 result at 433 MHz](designs/ra02_433/hfss_exports/Discrete_S11_dB_native.jpg)
+
+Use `scripts/design_ra02_433.py` to build the current design, `scripts/tune_ra02_433.py` for discrete verification, and `scripts/export_ra02_433_results.py` for native image exports. See the [design folder](designs/ra02_433/README.md) for exact dimensions, assumptions and connection details.
+
+## Earlier 868 / 915 MHz engineering blueprint
 
 A practical import, modeling, matching, automation, and visualization package for an **HFSS 3D Driven Modal** antenna model. Includes native **IronPython 2.7** automation, a runnable illustrative geometry, a protected imported-model workflow, and CPython tools for feedline estimates and publication-quality S11/Smith plots.
 

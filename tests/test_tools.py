@@ -94,6 +94,10 @@ class ToolsTest(unittest.TestCase):
         hfss.configure(d, e, self.cfg)
         analysis = d.modules["AnalysisSetup"].calls
         self.assertEqual(sum(n == "InsertFrequencySweep" for n, _ in analysis), 3)
+        field_sweeps=[args[1] for name,args in analysis if name=="InsertFrequencySweep" and "Fields" in args[1][0]]
+        for sweep in field_sweeps:
+            self.assertTrue(sweep[sweep.index("SaveFields:=")+1])
+            self.assertFalse(sweep[sweep.index("SaveRadFields:=")+1])
         setup = analysis[0][1][1]
         self.assertEqual(setup[setup.index("Frequency:=") + 1], "915MHz")
         opt = d.modules["Optimetrics"].calls[0]

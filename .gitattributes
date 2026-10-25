@@ -1,0 +1,11 @@
+# Preserve native HFSS scientific exports byte-for-byte.
+*.aedtplt binary
+*.conv -text -whitespace
+*.csv -text -whitespace
+*.GTL -text -whitespace
+*.GBL -text -whitespace
+*.GTS -text -whitespace
+*.GBS -text -whitespace
+*.GKO -text -whitespace
+*.drl -text -whitespace
+*.dxf -text -whitespace

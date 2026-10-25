@@ -1,0 +1,15 @@
+{
+  "L_match": "4.3nH",
+  "project": "C:\\Users\\Slegion\\Documents\\Codex\\2026-10-25\\act-as-an-expert-rf-and\\outputs\\lora-hfss-blueprint\\build\\ra02_433\\tuned_v3\\RA02_433_final.aedt",
+  "images": "Native HFSS exports",
+  "frequency_MHz": 433,
+  "excitation": "1 W, 0 degrees",
+  "design": "RA02_433_FR4_Trace",
+  "errors": 0,
+  "current_scale_A_per_m": [
+    0,
+    500
+  ],
+  "reference_ohm": 50,
+  "C_match": "20pF"
+}

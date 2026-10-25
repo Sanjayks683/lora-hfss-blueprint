@@ -1,0 +1,9 @@
+M48
+; Finished plated hole 0.300 mm; 25 um radial plating
+METRIC,TZ
+T01C0.300
+%
+G90
+T01
+X7.300Y8.000
+M30
