@@ -55,6 +55,8 @@ Authoring validation is recorded in [VALIDATION.md](docs/VALIDATION.md). The pac
 
 The genuine demonstration baseline data and plot are in [examples](examples/README.md). At `ant_len=60mm`, S11 is about **−3.65 dB at 868 MHz** and **−6.24 dB at 915 MHz**. This baseline does **not** satisfy the target match. It verifies the execution and reporting workflow and provides a starting point for tuning.
 
+The [complete local HFSS run archive](results/README.md) includes the solved native projects, full solution folders/saved fields, bounded optimization outputs, plots and diagnostic attempts. The archive has a file/hash manifest. Rendered 3D gain-overlay images and current-animation exports have not been generated.
+
 ## Acceptance evidence to retain
 
 Keep the exact PCB export, stackup/material data, HFSS version, port plane, solved project, ΔS convergence, mesh statistics, discrete S11 check, efficiency/realized gain, air-boundary sensitivity study, and VNA correlation. **S11 ≤ −10 dB means reflected power ≤10%, VSWR ≤1.925, and mismatch loss ≤0.458 dB; it does not establish radiation efficiency.**
