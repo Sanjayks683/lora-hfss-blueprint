@@ -1,0 +1,2 @@
+# Only for CPython plotting. AEDT IronPython needs no pip dependencies.
+matplotlib>=3.8,<4

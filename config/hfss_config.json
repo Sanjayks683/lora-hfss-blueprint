@@ -1,0 +1,22 @@
+{
+  "mode": "demo",
+  "project_path": "",
+  "design_name": "",
+  "output_project": "build/lora_demo.aedt",
+  "solve_nominal": false,
+  "run_optimization": false,
+  "max_optimization_iterations": 50,
+  "export_reports": false,
+  "geometry_and_stackup_verified": false,
+  "optimization_dependencies_verified": false,
+  "no_existing_open_region_verified": false,
+  "padding_reference_mhz": 915.0,
+  "geometry_growth_allowance_mm": 16.0,
+  "port_sheet": "PortSheet",
+  "port_start_mm": [60.0, 5.0, 0.0],
+  "port_end_mm": [60.0, 5.0, 1.6],
+  "goal_ranges_mhz": [[902.0, 928.0]],
+  "optimization_variables": [
+    {"name": "ant_len", "min": "45mm", "max": "75mm", "min_step": "0.1mm", "max_step": "2mm"}
+  ]
+}

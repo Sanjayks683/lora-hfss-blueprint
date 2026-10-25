@@ -1,0 +1,14 @@
+build/
+__pycache__/
+*.pyc
+.venv/
+*.aedt
+!examples/lora_demo_prepared.aedt
+*.aedtresults/
+*.aedb/
+*.lock
+*.snp
+*.s1p
+*.s2p
+build_*.log
+*.log
